@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+}
+
+div {
+  border-top: 2px solid;
+  max-width: fit-content;
+}
+
+table,
+tr,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 5px;
+}
+
+table .bold {
+  font-weight: 900;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+table {
+  background: orange;
+}
+
+img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+table tr td .textTop {
+  font-size: x-small;
+  vertical-align: top;
+}
+
+table tr td .textBottom {
+  font-size: x-small;
+  vertical-align: bottom;
+}
